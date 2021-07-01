@@ -1,0 +1,29 @@
+{
+  "name": "learning-tailwind",
+  "version": "1.0.0",
+  "description": "Recipes app built using TailwindCSS",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build src/css/styles.css -o public/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umaraziz0/recipes-site-tailwind.git"
+  },
+  "keywords": [
+    "recipes",
+    "website",
+    "tailwind"
+  ],
+  "author": "aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umaraziz0/recipes-site-tailwind/issues"
+  },
+  "homepage": "https://github.com/umaraziz0/recipes-site-tailwind#readme"
+}
