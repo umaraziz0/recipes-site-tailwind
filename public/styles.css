@@ -22356,8 +22356,16 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-lato {
+  font-family: Lato, sans-serif;
+}
+
 .font-lora {
   font-family: Lora, serif;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
 }
 
 .font-poppins {
@@ -53939,8 +53947,16 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-lato {
+    font-family: Lato, sans-serif;
+  }
+
   .sm\:font-lora {
     font-family: Lora, serif;
+  }
+
+  .sm\:font-montserrat {
+    font-family: Montserrat, sans-serif;
   }
 
   .sm\:font-poppins {
@@ -85110,8 +85126,16 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-lato {
+    font-family: Lato, sans-serif;
+  }
+
   .md\:font-lora {
     font-family: Lora, serif;
+  }
+
+  .md\:font-montserrat {
+    font-family: Montserrat, sans-serif;
   }
 
   .md\:font-poppins {
@@ -116281,8 +116305,16 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-lato {
+    font-family: Lato, sans-serif;
+  }
+
   .lg\:font-lora {
     font-family: Lora, serif;
+  }
+
+  .lg\:font-montserrat {
+    font-family: Montserrat, sans-serif;
   }
 
   .lg\:font-poppins {
@@ -147452,8 +147484,16 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-lato {
+    font-family: Lato, sans-serif;
+  }
+
   .xl\:font-lora {
     font-family: Lora, serif;
+  }
+
+  .xl\:font-montserrat {
+    font-family: Montserrat, sans-serif;
   }
 
   .xl\:font-poppins {
@@ -178623,8 +178663,16 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .\32xl\:font-lato {
+    font-family: Lato, sans-serif;
+  }
+
   .\32xl\:font-lora {
     font-family: Lora, serif;
+  }
+
+  .\32xl\:font-montserrat {
+    font-family: Montserrat, sans-serif;
   }
 
   .\32xl\:font-poppins {
