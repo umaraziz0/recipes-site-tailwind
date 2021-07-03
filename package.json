@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build-css": "tailwindcss build src/css/styles.css -o public/styles.css",
+    "build-css": "tailwindcss build -i src/css/styles.css -o public/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
