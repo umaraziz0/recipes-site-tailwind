@@ -2,6 +2,10 @@
 
 A simple recipes website landing page built using Tailwind CSS.
 
+## Demo
+
+https://umaraziz0.github.io/Recipes-Site-Tailwind
+
 ## Run Locally
 
 Clone the project
