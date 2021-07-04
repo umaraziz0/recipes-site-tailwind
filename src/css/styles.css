@@ -4,7 +4,7 @@
 
 @layer components {
   .card {
-    @apply rounded-xl border shadow-lg overflow-hidden relative cursor-pointer;
+    @apply rounded-xl border shadow-lg hover:shadow-xl overflow-hidden relative cursor-pointer;
   }
 
   .card-img-top {
@@ -16,7 +16,7 @@
   }
 
   .card-title {
-    @apply font-lora font-semibold text-xl;
+    @apply font-lora font-semibold text-lg;
   }
 
   .card-subtitle {
