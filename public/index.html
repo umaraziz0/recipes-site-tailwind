@@ -17,12 +17,12 @@
   </head>
   <body class="font-poppins">
     <!-- Content Wrapper -->
-    <div>
+    <div class="grid md:grid-cols-3">
       <!-- Navigation -->
-      <div>
+      <div class="md:col-span-1">
         <nav>
           <div>
-            <h1 class="font-bold uppercase">
+            <h1 class="font-lora font-bold uppercase p-3">
               <a href="/">Recipes 101</a>
             </h1>
           </div>
@@ -42,19 +42,45 @@
       <!-- Navigation End -->
 
       <!-- Main Content -->
-      <main class="bg-gray-100 p-10">
-        <div class="flex justify-end text-red-500">
-          <a href="#" class="mr-3 p-2 rounded-lg bg-blue-500 text-white"
-            >Login</a
+      <main class="md:col-span-2 bg-gray-100 p-10">
+        <div class="mb-5 md:mb-0">
+          <div
+            class="
+              flex
+              justify-center
+              md:justify-end
+              text-gray-600
+              md:text-blue-500
+            "
           >
-          <a href="#" class="mr-3 p-2 rounded-lg bg-red-500 text-white"
-            >Sign Up</a
-          >
+            <a
+              href="#"
+              class="
+                btn
+                md:border-2
+                hover:text-black
+                md:border-blue-500 md:hover:bg-blue-500 md:hover:text-white
+                mr-3
+              "
+            >
+              Log In
+            </a>
+            <a
+              href="#"
+              class="
+                btn
+                md:border-2
+                hover:text-black
+                md:border-blue-500 md:hover:bg-blue-500 md:hover:text-white
+              "
+              >Sign Up</a
+            >
+          </div>
         </div>
 
         <header class="mb-10">
           <h2 class="font-lora font-bold text-6xl mb-3">Recipes 101</h2>
-          <h3 class="text-gray-500 text-2xl">
+          <h3 class="text-gray-500 text-xl md:text-2xl">
             Straight from grandma's kitchen.
           </h3>
         </header>
@@ -74,23 +100,100 @@
             </h4>
 
             <!-- Cards -->
-            <div class="card">
-              <img
-                src="img/chicken-noodle-soup.jpg"
-                alt="chicken-noodle-soup"
-              />
-              <div class="card-body">
-                <p class="card-title">Chicken Noodle Soup</p>
-                <span class="card-subtitle">Recipe by John Doe</span>
+            <div class="grid lg:grid-cols-3 gap-10">
+              <div class="card">
+                <img
+                  src="img/chicken-noodle-soup.jpg"
+                  alt="chicken-noodle-soup"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <p class="card-title">Chicken Noodle Soup</p>
+                  <span class="card-subtitle">Recipe by John Doe</span>
+                </div>
+                <div class="card-badge">
+                  <svg
+                    class="w-5 inline-block mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    /></svg
+                  ><span>25 mins</span>
+                </div>
               </div>
-              <div class="card-badge">
-                <span>25mins</span>
+
+              <div class="card">
+                <img
+                  src="img/curry.jpg"
+                  alt="chicken-noodle-soup"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <p class="card-title">Spicy Curry</p>
+                  <span class="card-subtitle">Recipe by Fannie Perez </span>
+                </div>
+                <div class="card-badge">
+                  <svg
+                    class="w-5 inline-block mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>25mins</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="img/spaghetti.jpg"
+                  alt="chicken-noodle-soup"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <p class="card-title">Spaghetti Carbonara</p>
+                  <span class="card-subtitle">Recipe by Mohamad Aziz</span>
+                </div>
+                <div class="card-badge">
+                  <svg
+                    class="w-5 inline-block mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>25mins</span>
+                </div>
               </div>
             </div>
             <!-- Cards End -->
           </div>
 
-          <div>
+          <div class="mb-5">
             <h4 class="font-semibold text-2xl">Most Popular</h4>
             <div>
               <!-- Cards -->
@@ -102,7 +205,7 @@
           </div>
 
           <div>
-            <div>Load More</div>
+            <a href="#" class="btn bg-gray-300 text-gray-700">Load More</a>
           </div>
         </div>
       </main>

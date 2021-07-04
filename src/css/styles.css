@@ -4,7 +4,11 @@
 
 @layer components {
   .card {
-    @apply max-w-md rounded-xl border shadow-lg overflow-hidden relative;
+    @apply rounded-xl border shadow-lg overflow-hidden relative cursor-pointer;
+  }
+
+  .card-img-top {
+    @apply w-full h-60 object-cover;
   }
 
   .card-body {
@@ -21,5 +25,9 @@
 
   .card-badge {
     @apply bg-gray-200 border rounded-full p-2 text-xs absolute top-0 ml-2 mt-2;
+  }
+
+  .btn {
+    @apply py-2 px-3 rounded-full cursor-pointer;
   }
 }
